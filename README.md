@@ -1,4 +1,3 @@
-<img src="https://raw.githubusercontent.com/MelissaN/simple_shell/master/shell.gif">
 ## Simple Shell
 > In this project, we coded from scratch a simple Unix shell. A shell is an interactive
 > command-line interpreter. We created a shell that would utilize the command line
@@ -70,48 +69,6 @@ print_error.c ---------------------- prints special error messages for certain f
 ```
 ### Environment
 * Language: C
-* OS: Ubuntu 14.04 LTS
+* OS: Ubuntu 20.04 LTS
 * Compiler: gcc 4.8.4
 * Style guidelines: [Betty style](https://github.com/holbertonschool/Betty/wiki)
-
-## How To Install, Compile, and Use
-Install and Compile
-```
-(your_terminal)$ git clone https://github.com/MelissaN/simple_shell.git
-(your_terminal)$ cd simple_shell
-(your_terminal)$ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c -o simple_shell
-```
-**Non-Interactive Mode**
-```
-echo "ls -l" | ./simple_shell
-```
-**Interactive Mode***
-Activate the shell
-```
-(your_terminal)$ ./simple_shell
-$
-```
-Sample Usage
-```
-$ ls -al
-total 4
--rw-rw-r-- 1 vagrant vagrant   234 Mar 28 19:32 file1.c
--rw-rw-r-- 1 vagrant vagrant    69 Mar 28 19:32 file2.c
-$ echo "This is a pretty cool!"
-This is pretty cool!
-$ man ./man_1_simple_shell (opens our manpage for more information)
-```
-Stop and return to your original shell
-```
-$ exit
-(your_terminal)$
-```
-
-
-### To Do
-* More functionality can still be added (e.g. handle aliases, pipelines, and redirections)
-
----
-### Authors
-Kevin Yook [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/yook00627)
-Melissa Ng [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/MelissaNg__)
